@@ -1,0 +1,172 @@
+@font-face {
+  font-family: 'MyWebFont';
+  src:  url('myfont.woff2') format('woff2'),
+        url('myfont.woff') format('woff');
+}
+
+body{
+	margin: 0;
+	font-family: 'MyWebFont', Fallback, sans-serif;
+}
+
+
+nav{
+	background: #3336ff;
+}
+
+.menu{
+	text-align: center;
+	margin: 0
+}
+.menu li{
+	display: inline-block;
+}
+
+.menu a{
+	padding: 10px;	
+	color: white;
+	text-decoration: none;
+	display: block;
+}
+
+.menu a:hover{ 
+	background: #333333; 
+}
+
+.gris{
+	background: #333333;
+	overflow: hidden;
+	color: white;
+	text-align: center;
+	padding: 70px;
+}
+
+.hierba{
+
+	height: 400px;
+	background: url(image05.jpg);
+}
+
+.dos_col{
+	width: 1024px;
+	margin: auto;
+}
+
+.dos_col .col_left{
+	width: 600px;
+	vertical-align: top;
+
+}
+
+.dos_col .col_right{
+	width: 400px;
+	vertical-align: top;
+	padding-left: 100px;
+	box-sizing: border-box;
+}
+
+.dos_col .col_right ul{
+	padding: 0
+}
+
+.dos_col .col_right a{
+	color: #333333;
+}
+
+.dos_col .col_right a:hover{
+	text-decoration: none;
+}
+
+.dos_col .col_right li{
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+.tres_col{
+	background: #333333;
+	color: white;
+	width: 1024px;
+	margin: auto
+}
+
+.tres_col a{
+	color: white
+}
+
+.col{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.tres_col .col{
+	width: 330px	
+}
+
+.tres_col_wrapper{
+	background: #333333;
+	padding: 40px;
+}
+
+.tres_col_wrapper ul{
+	padding: 0
+}
+
+.tres_col_wrapper li{
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+.footer{
+	background: #333333;
+	padding: 60px;
+	text-align: center;
+	color: white
+}
+
+.icon{
+	width: 40px;
+	height: 40px;
+	background: red;
+	display: inline-block;
+}
+
+.twitter{
+	background: url(twitter.jpg);
+}
+
+.facebook{
+	background: url(facebook.jpg);
+}
+
+.rss{
+	background: url(rss.jpg);
+}	
+
+.gmail{
+	background: url(gmail.jpg);
+}
+
+.tumblr{
+	background: url(tumblr.jpg);
+}
+
+.readmore{
+	display: inline-block;
+	padding: 20px;
+	background: #333333;
+	text-decoration: none;
+	margin-top: 30px;
+}
+
+h2{
+	color: #333333;
+}
+
+.logo{
+	width: 100px;
+	height: 100px;
+	background: red;
+	display: inline-block;
+}
+
+
